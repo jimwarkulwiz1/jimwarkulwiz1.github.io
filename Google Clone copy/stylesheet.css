@@ -53,9 +53,17 @@ table {
 
 body{
 	margin: 0;
+	padding: 0;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
+	width: 100%;
+	min-width: 760px;
 	}
+
+.container{
+   position:relative;
+   margin: 0;
+}
 
 /*Header*/
 
@@ -66,7 +74,8 @@ header nav{
 
 nav ul {
 	list-style-type: none;
-	margin:0;
+	margin: 0;
+	white-space: nowrap;
 }
 
 nav li {
@@ -97,7 +106,8 @@ header nav ul li a:hover{
 
 #sign-in{
 	background-color: #d04230;
-	float: right;
+	position: relative;
+	left: 92%;
 	color: white;
 	text-align: center;
 	padding-top: 12px;
@@ -107,6 +117,7 @@ header nav ul li a:hover{
 	font-family: Arial, sans-serif;
 	height: 20px;
 	width: 70px;
+	min-width: 70px;
 	margin-right: 43px;
 	margin-top: 20px;
 }
@@ -124,7 +135,7 @@ header nav ul li a:hover{
 	}
 	
 .middle #logo{
-	margin-top: 162px;
+	margin-top: 110px;
 	position: block;
 	text-align: center;
 	margin-left: auto;
@@ -198,15 +209,18 @@ input:focus{
 /*Footer*/
 
 footer{
-    position: absolute;
-    bottom: 0;
-    height: 31px;
+	position: absolute;
+    height: 25px;
     width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    clear: both;
 }
 	
 footer nav{
 	border-top: 1px solid #ebebeb; 
     height: 3px;
+    white-space: nowrap;
 }
 	
 footer ul{
@@ -217,7 +231,7 @@ footer ul{
 footer li{
     display: inline-block;
     color: orange;
-    padding: 6px 0px 5px 1px;
+    padding: 9px 0px 6px 1px;
     font-size: 13px;
     }
 
