@@ -1,0 +1,63 @@
+body{
+	background: black;
+}
+
+#container{
+	background: white;
+	text-align: center;
+	width: 550px;
+	height: 250px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 15px;
+}
+
+#cluecontainer{
+	height: 20px;
+	margin: 0;
+	position: static;
+	padding: 0;
+}
+
+.inputs{
+	margin: auto;
+	text-align: center;
+	width: 150px;
+	position: relative;
+	top: 15px;
+}
+
+.inputs #guess{
+	margin-bottom: 7px;
+	padding: 2px;
+}
+
+#cluecontainer{
+	margin: auto;
+}
+
+#clue{
+	display: hidden;
+	margin: auto;
+	text-align: center;
+}
+
+#correct{
+	display: none;
+}
+
+#warmer{
+	display: none;
+}
+
+#warmer h4{
+	color: red;
+}
+
+#colder{
+	display: none;
+}
+
+#colder h4{
+	color: #9fcff2;
+}
